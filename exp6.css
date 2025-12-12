@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; 
+    display: flex;
+    justify-content: center; 
+    padding-top: 50px;
+}
+.output-container {
+    width: 80%; 
+    max-width: 790px;
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.logo {
+    margin: 0;
+    font-size: 1.8em;
+}
+.product-container {
+    padding: 40px;
+    text-align: center; 
+}
+.product-image {
+    margin-bottom: 30px;
+}
+.tshirt-img {
+    width: 150px;
+    height: auto;
+    background-color: darkgreen;
+    display: block;
+    margin: 0 auto; 
+}
+.product-name {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+.price-section {
+    margin-bottom: 25px;
+}
+.price-original {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+.price-discount {
+    font-size: 1.2em;
+    color: #e74c3c; 
+    text-decoration: line-through;
+}
+.add-to-cart-btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 12px 60px; 
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 80%; 
+    max-width: 400px; 
+}
+.add-to-cart-btn:hover {
+    background-color: #0056b3; 
+
+}
+
+
+
+
