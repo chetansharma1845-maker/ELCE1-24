@@ -1,0 +1,27 @@
+.header{
+     display: block;
+     text-align: center;
+     background-color: grey;
+     padding: 5px
+     border: 1px solid black;
+    }
+.header span{
+    color:red;
+    }
+.nav-link {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    text-decoration: none; 
+    color: black;
+    border: 1px solid #888; 
+    border-radius: 3px;
+    font-weight: normal;
+}
+.nav-group-primary .nav-link {
+    background-color: lightblue; 
+}
+.nav-group-secondary .nav-link {
+    background-color: lightgreen;
+}
+
